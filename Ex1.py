@@ -5,8 +5,8 @@
 A = 3; B = 5 -> 243 (3⁵)
     A = 2; B = 3 -> 8 '''
 
-number = int(input('Введите число: '))
-power = int(input('Введите значения степени: '))
+number = int(input('Enter number: '))
+power = int(input('Enter power: '))
 
 def power_num(number, power):
     if power == 1:
